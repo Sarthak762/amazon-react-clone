@@ -1,0 +1,22 @@
+.page_top {
+  height: 58vh;
+  background-image: url("https://thumbs.dreamstime.com/z/amazon-logo-black-shiny-wall-san-francisco-mall-october-california-october-american-65996354.jpg");
+  display: grid;
+  place-items: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.page_top > h2 {
+  border: 2px solid white;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+  font-size: 32px;
+}
+.itemCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

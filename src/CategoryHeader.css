@@ -1,0 +1,34 @@
+.categoryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+  color: white;
+  position: fixed;
+  top: 61px;
+  padding: 7px;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+  border-radius: 5px;
+}
+.categoryHeader > img {
+  height: 25px;
+  cursor: pointer;
+  flex: 0.7;
+}
+.options {
+  border-radius: 5px;
+  padding: 2px;
+}
+.options:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.menu:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
